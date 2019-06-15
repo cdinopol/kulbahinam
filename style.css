@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#map {
+	display: block;
+	width: 1000px;
+	height: 1000px;
+	border: 1px solid #ccc;
+	overflow: scroll;
+	position: relative;
+}
+
+#map .tile {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
